@@ -1,0 +1,45 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "JK"
+  },
+  "text": {
+    "more": "Topics of the Smithsonian Institution's Cultural Collections",
+    "intro": "Topics of the Smithsonian Institution's Cultural Collections",
+    "title": "Topics of the Smithsonian Institution's Cultural Collections"
+  },
+  "legend": {
+    "edgeLabel": "Shared Topic",
+    "colorLabel": "Museum",
+    "nodeLabel": "Topic"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "labelThreshold": 1.4,
+      "labelSize": "proportional",
+      "labelSizeRatio": 6,
+      "labelColor": "node",
+      "drawEdges": false
+    },
+    "graphProperties": {
+      "minNodeSize": 0.6,
+      "maxNodeSize": 2
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
